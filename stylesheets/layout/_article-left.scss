@@ -1,0 +1,136 @@
+.article-left {
+  background-color: #e5e9ff;
+  padding: 25px 0;
+}
+
+.article-left__box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.article-left__image {
+  position: relative;
+  max-width: 715px;
+  padding-bottom: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+
+  img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+
+  @media (max-width:$md3+px){
+		max-width: 340px; 
+		padding-bottom: 80%;
+  }
+}
+
+.article-left__svg {
+  margin: 0 auto;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 43px;
+  height: 43px;
+  margin-bottom: 48px;
+
+  img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+
+  @media (max-width:$md1+px){
+		margin-bottom: 30px; 
+  }
+
+  @media (max-width:$md2+px){
+	  margin-bottom: 20px;
+  }
+}
+
+.article-left__content {
+  text-align: center;
+  max-width: 425px;
+  margin: 0 auto;
+
+  @media (max-width:$md2+px){
+	  margin: 0 15px;
+  }
+}
+
+.article-left__title {
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 47px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 42px;
+
+  @media (max-width:$md1+px){
+	font-size:35px;
+	line-height: 39px;
+  }
+
+  @media (max-width:$md2+px){
+	font-size:25px;
+	line-height: 29px;
+	margin-bottom: 25px;
+  }
+
+  @media (max-width:$md3+px){
+		font-size: 18px;
+		line-height: 22px;
+		margin-bottom: 15px; 
+  }
+}
+
+.article-left__text {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 23px;
+
+  @media (max-width:$md1+px){
+		font-size: 15px;
+		line-height: 21px;
+		margin-bottom: 15px; 
+  }
+
+  @media (max-width:$md2+px){
+	  font-size: 13px;
+	  line-height: 19px;
+	  margin-bottom: 10px;
+  }
+
+  @media (max-width:$md3+px){
+		font-size: 11px;
+		line-height: 17px;
+		margin-bottom: 5px; 
+  }
+}
+
+.article-left__btn {
+	margin-top: 53px;
+	padding: 0 94px;
+	background-color: #90AAFF;
+
+	@media (max-width:$md1+px){
+		 margin-top: 25px; 
+	}
+
+	@media (max-width:$md2+px){
+		margin-top: 20px;
+	}
+}
