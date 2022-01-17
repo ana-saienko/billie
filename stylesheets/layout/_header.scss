@@ -1,0 +1,62 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+.header {
+  padding: 14px 0;
+}
+
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 590px){
+		 flex-direction: column;
+  }
+}
+
+.header__list {
+	display: flex;
+	align-items: center;
+}
+
+.header__link {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	letter-spacing: 0.3px;
+	color: #000000;
+
+}
+
+.header__list-item,
+.header__right-item {
+	margin-right: 20px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.header__right-item a {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	letter-spacing: 0.3px;
+	color: #000000;
+}
+
+.header__right-list {
+	display: flex;
+	align-items: center;
+}
+
+.header__left {
+	@media (max-width: 590px){
+		margin-bottom: 15px;
+	}
+}
+

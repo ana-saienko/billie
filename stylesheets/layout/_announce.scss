@@ -1,0 +1,19 @@
+.announce {
+  padding: 10px 0;
+  text-align: center;
+  background-color: #90AAFF;
+}
+
+.announce__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+  color: #000000;
+
+  @media (max-width:$md4+px){
+		font-size: 10px; 
+  }
+}
