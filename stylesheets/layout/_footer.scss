@@ -12,15 +12,15 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 130px;
 
-  @media (max-width:$md2+px){
-	  gap: 30px;
-	  grid-template-columns: 1fr 1fr;
-	  grid-template-rows: 1fr 1fr;
+  @media (max-width: $md2+px) {
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 
-  @media (max-width:$md4+px){
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr;
+  @media (max-width: $md4+px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
   }
 }
 
@@ -43,9 +43,11 @@
 }
 
 .footer__insta-svg {
-  fill: #000;
   width: 16px;
   height: 16px;
+  svg {
+    fill: #000;
+  }
 }
 
 .footer__copyright {

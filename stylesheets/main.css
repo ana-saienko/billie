@@ -898,9 +898,12 @@ body.lock {
 }
 
 .footer__insta-svg {
-  fill: #000;
   width: 16px;
   height: 16px;
+}
+
+.footer__insta-svg svg {
+  fill: #000;
 }
 
 .footer__copyright {
