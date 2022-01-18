@@ -1,3 +1,86 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+
+.footer {
+  padding: 90px 0;
+  background-color: #f4f5fe;
+}
+
+.footer__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 130px;
+
+  @media (max-width:$md2+px){
+	  gap: 30px;
+	  grid-template-columns: 1fr 1fr;
+	  grid-template-rows: 1fr 1fr;
+  }
+
+  @media (max-width:$md4+px){
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+  }
+}
+
+.footer__nav-link,
+.footer__subtitle,
+.footer__email,
+.footer__p,
+.footer__link,
+.footer__copy,
+.form__title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.footer__insta {
+  margin-top: 28px;
+  display: inline-block;
+}
+
+.footer__insta-svg {
+  fill: #000;
+}
+
+.footer__copyright {
+  display: flex;
+  flex-direction: column;
+}
+
+// -----------------------------------------------------------------------------
+// FORM
+// -----------------------------------------------------------------------------
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.form__input {
+  background-color: transparent;
+  border-bottom: 1px solid #90aaff;
+  padding: 15px 0;
+  margin-bottom: 20px;
+
+  &::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    color: #445eff;
+  }
+}
+
+.form__btn {
+  display: inline-block;
+  text-align: left;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+
+// border-bottom: 1px solid #90AAFF;

@@ -32,6 +32,7 @@ body {
 	}
 	@media (max-width: $md2+px) {
 		max-width: 850px;
+		padding: 0 10px;
 	}
 	@media (max-width: $md3+px) {
 		max-width: none;
