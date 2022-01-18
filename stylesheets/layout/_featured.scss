@@ -91,6 +91,12 @@
   @media (max-width: $md1+px) {
     padding: 0 40px;
   }
+
+  &:hover {
+    border: 1px solid #ffa5ff;
+    background-color: transparent;
+    color: #ffa5ff;
+  }
 }
 
 .grid-item__image {

@@ -57,3 +57,12 @@
 	 font-size: 14px; 
 }
 }
+
+
+.hero__btn {
+  &:hover {
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+  }
+}
