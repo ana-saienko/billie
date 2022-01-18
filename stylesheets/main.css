@@ -362,6 +362,10 @@ body.lock {
   }
 }
 
+.article-left__content:not(last-child) {
+  margin-bottom: 15px;
+}
+
 .article-left__title {
   font-weight: 400;
   font-size: 43px;
@@ -428,6 +432,7 @@ body.lock {
 }
 
 .article-left__btn {
+  font-weight: 700;
   margin-top: 53px;
   padding: 0 94px;
   background-color: #90aaff;
@@ -449,6 +454,10 @@ body.lock {
   .article-left__btn {
     padding: 0 75px;
   }
+}
+
+.article-right__btn {
+  background-color: #FFA5FF;
 }
 
 .header {
