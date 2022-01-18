@@ -1,5 +1,9 @@
 // This file contains very basic styles.
 
+.dnone {
+	display: none !important;
+}
+
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;

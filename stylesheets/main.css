@@ -112,6 +112,10 @@ h6 {
   font-size: inherit;
 }
 
+.dnone {
+  display: none !important;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -237,25 +241,46 @@ body.lock {
   }
 }
 
+/* flex-контейнер */
+.block__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 767.98px) {
+  .block__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+/* flex-элемент */
+.block__element {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
 .article-left {
   background-color: #e5e9ff;
   padding: 25px 0;
 }
 
-.article-left__box {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .article-left__image {
   position: relative;
-  max-width: 715px;
-  padding-bottom: 100%;
+  max-width: 680px;
+  padding-bottom: 93%;
   border-radius: 15px;
   overflow: hidden;
 }
@@ -272,8 +297,16 @@ body.lock {
 
 @media (max-width: 767.98px) {
   .article-left__image {
-    max-width: 340px;
-    padding-bottom: 80%;
+    width: 340px;
+    min-height: 340px;
+    display: block;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .article-left__image {
+    width: 300px;
+    min-height: 300px;
   }
 }
 
@@ -309,9 +342,17 @@ body.lock {
   }
 }
 
+@media (max-width: 767.98px) {
+  .article-left__svg {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+  }
+}
+
 .article-left__content {
   text-align: center;
-  max-width: 425px;
+  max-width: 430px;
   margin: 0 auto;
 }
 
@@ -389,7 +430,7 @@ body.lock {
 .article-left__btn {
   margin-top: 53px;
   padding: 0 94px;
-  background-color: #90AAFF;
+  background-color: #90aaff;
 }
 
 @media (max-width: 1322px) {
@@ -401,6 +442,12 @@ body.lock {
 @media (max-width: 991.98px) {
   .article-left__btn {
     margin-top: 20px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .article-left__btn {
+    padding: 0 75px;
   }
 }
 
