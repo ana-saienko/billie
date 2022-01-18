@@ -16,6 +16,7 @@
   border: 1px solid transparent;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  font-family: "RobotoBold";
   font-weight: 700;
   font-size: 11px;
   line-height: 16px;
@@ -190,6 +191,22 @@ body.lock {
   }
 }
 
+@font-face {
+  font-family: "RobotoReg";
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RobotoBold";
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
 /**
  * Basic typography style for copy text
  */
@@ -216,6 +233,7 @@ body.lock {
 }
 
 .about-us__title {
+  font-family: "RobotoBold";
   font-weight: 700;
   font-size: 12px;
   line-height: 18px;
@@ -235,6 +253,7 @@ body.lock {
 .about-us__text {
   max-width: 625px;
   margin: 0 auto;
+  font-family: "RobotoReg";
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
@@ -255,6 +274,7 @@ body.lock {
 }
 
 .announce__text {
+  font-family: "RobotoReg";
   font-weight: 400;
   font-size: 12px;
   line-height: 20px;
@@ -396,6 +416,7 @@ body.lock {
 }
 
 .article-left__title {
+  font-family: "RobotoReg";
   font-weight: 400;
   font-size: 43px;
   line-height: 47px;
@@ -428,6 +449,7 @@ body.lock {
 }
 
 .article-left__text {
+  font-family: "RobotoReg";
   font-weight: 400;
   font-size: 17px;
   line-height: 23px;
@@ -461,6 +483,7 @@ body.lock {
 }
 
 .article-left__btn {
+  font-family: "RobotoBold";
   font-weight: 700;
   margin-top: 53px;
   padding: 0 94px;
@@ -535,6 +558,7 @@ body.lock {
 .featured__title,
 .featured__all {
   font-weight: 400;
+  font-family: "RobotoReg";
   font-size: 11px;
   line-height: 14px;
   letter-spacing: 1px;
@@ -580,6 +604,7 @@ body.lock {
 }
 
 .grid-item__title {
+  font-family: "RobotoReg";
   font-weight: 400;
   font-size: 21px;
   line-height: 32px;
@@ -589,7 +614,9 @@ body.lock {
 }
 
 .grid-item__descr {
+  font-family: "RobotoReg";
   font-weight: 400;
+  font-family: "RobotoReg";
   font-size: 12px;
   line-height: 20px;
   text-align: center;
@@ -683,6 +710,7 @@ body.lock {
 }
 
 .header__link {
+  font-family: "RobotoReg";
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
@@ -702,6 +730,7 @@ body.lock {
 }
 
 .header__right-item a {
+  font-family: "RobotoReg";
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
@@ -793,6 +822,7 @@ body.lock {
 }
 
 .hero__title {
+  font-family: "RobotoReg";
   font-weight: 400;
   font-size: 66px;
   line-height: 69px;
@@ -821,6 +851,7 @@ body.lock {
 }
 
 .hero__subtitle {
+  font-family: "RobotoReg";
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
@@ -886,6 +917,7 @@ body.lock {
 .footer__link,
 .footer__copy,
 .form__title {
+  font-family: "RobotoReg";
   font-weight: 400;
   font-size: 12px;
   line-height: 27px;
@@ -937,6 +969,7 @@ body.lock {
 }
 
 .form__input::-webkit-input-placeholder {
+  font-family: "RobotoReg";
   font-weight: 400;
   font-size: 14px;
   line-height: 32px;
@@ -944,6 +977,7 @@ body.lock {
 }
 
 .form__input:-ms-input-placeholder {
+  font-family: "RobotoReg";
   font-weight: 400;
   font-size: 14px;
   line-height: 32px;
@@ -951,6 +985,7 @@ body.lock {
 }
 
 .form__input::-ms-input-placeholder {
+  font-family: "RobotoReg";
   font-weight: 400;
   font-size: 14px;
   line-height: 32px;
@@ -958,6 +993,7 @@ body.lock {
 }
 
 .form__input::placeholder {
+  font-family: "RobotoReg";
   font-weight: 400;
   font-size: 14px;
   line-height: 32px;
@@ -967,6 +1003,7 @@ body.lock {
 .form__btn {
   display: inline-block;
   text-align: left;
+  font-family: "RobotoReg";
   font-weight: 400;
   font-size: 12px;
   color: #000000;

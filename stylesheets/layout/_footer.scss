@@ -31,6 +31,7 @@
 .footer__link,
 .footer__copy,
 .form__title {
+	font-family: "RobotoReg";
   font-weight: 400;
   font-size: 12px;
   line-height: 27px;
@@ -72,6 +73,7 @@
   margin-bottom: 20px;
 
   &::placeholder {
+	font-family: "RobotoReg";
     font-weight: 400;
     font-size: 14px;
     line-height: 32px;
@@ -82,6 +84,7 @@
 .form__btn {
   display: inline-block;
   text-align: left;
+  font-family: "RobotoReg";
   font-weight: 400;
   font-size: 12px;
   color: #000000;
